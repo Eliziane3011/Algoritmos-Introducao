@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-10 06:51:56 "/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLU5GNlU3Tk47MjAyMi0wMy0xMDsiMDY6NDM6MDEgIjsyNjc1"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLU5GNlU3Tk47MjAyMi0wMy0xMDsiMDY6NTE6NTYgIjsxOzI3OTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome" type="String" array="False" size=""/>
+            <declare name="nota1, nota2, nota3, nota4, media, idade" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o seu nome: &quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Qual a sua idade?&quot;" newline="True"/>
+            <input variable="idade"/>
+            <output expression="&quot;Quais suas notas?&quot;" newline="True"/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <output expression="&quot;Seu nome &#233; &quot; &amp; nome &amp; &quot;, sua idade &#233; &quot; &amp; idade &amp; &quot; sua media &#233;: &quot; &amp; media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
